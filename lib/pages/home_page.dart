@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:learnfromyt/config/app_strings.dart';
 
 import '../components/postcomponents.dart';
 import '../components/toolbar.dart';
@@ -17,7 +18,7 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: Toolbar(title: 'Social',
+      appBar: Toolbar(title: AppStrings.appName,
         actions: [
           IconButton(onPressed: () {
 

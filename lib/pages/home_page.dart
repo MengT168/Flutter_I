@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:learnfromyt/config/app_icons.dart';
 import 'package:learnfromyt/config/app_strings.dart';
 
 import '../components/postcomponents.dart';
@@ -22,7 +23,7 @@ class HomePage extends StatelessWidget {
         actions: [
           IconButton(onPressed: () {
 
-          }, icon: SvgPicture.asset('assets/svg/ic_location.svg'))
+          }, icon: SvgPicture.asset(AppIcon.icLocation))
         ],
       ),
       body: ListView.builder(
